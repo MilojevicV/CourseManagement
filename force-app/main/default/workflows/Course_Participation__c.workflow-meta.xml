@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_Alert</fullName>
+        <ccEmails>veljko.milojevic@gmail.com</ccEmails>
+        <description>Email Alert</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/You_have_been_assigned_to_a_new_course_1647526149514</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Duplicate_Detection</fullName>
+        <field>DuplicateDetection__c</field>
+        <formula>Course__r.Name  +  Student__r.Id</formula>
+        <name>Duplicate Detection</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>AssignedToACourse</fullName>
+        <actions>
+            <name>Email_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>1=1</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Duplicate Detection</fullName>
+        <actions>
+            <name>Duplicate_Detection</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>1=1</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

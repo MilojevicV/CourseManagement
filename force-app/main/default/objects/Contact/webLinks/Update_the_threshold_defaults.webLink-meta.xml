@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update_the_threshold_defaults</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Update the threshold defaults</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://wise-unicorn-h6bumt-dev-ed.lightning.force.com/lightning/setup/CustomMetadata/page?address=%2Fm007Q000000xi8b%2Fe%3FretURL%3D%252Fm007Q000000xi8b%253FappLayout%253Dsetup%2526tour%253D%2526isdtp%253Dp1%2526sfdcIFrameOrigin%253Dhttps%25253A%25252F%25252Fwise-unicorn-h6bumt-dev-ed.lightning.force.com%2526sfdcIFrameHost%253Dweb%2526nonce%253D1cece2894eaacae6dc8b19de732dd5c71be07fdc61db58009a76305db5304928%2526clc%253D1</url>
+</WebLink>

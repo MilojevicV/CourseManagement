@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Start_Date_Rule_2</fullName>
+    <active>true</active>
+    <errorConditionFormula>Start_Date__c   &lt;  TODAY() &amp;&amp;  ISNEW()</errorConditionFormula>
+    <errorMessage>The Start Date cannot be in the past, therefore, I can only create courses with a date of
+today or further in the future</errorMessage>
+</ValidationRule>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CreditDefault</fullName>
+    <availability>online</availability>
+    <description>Change the default for the CreditThreshold record.</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>CreditDefault</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://wise-unicorn-h6bumt-dev-ed.lightning.force.com/lightning/setup/CustomSettings/page?address=%2Fsetup%2Fui%2FeditCustomSettingsData.apexp%3FappLayout%3Dsetup%26CS_list%253ACS_Form%253AtheDetailPageBlock%253AthePageBlockButtons%253Aedit%3DEdit%26retURL%3D%252Fsetup%252Fui%252FlistCustomSettingsData.apexp%253Fid%253Da06%26ltn_app_id%3D06m7Q0000022H3UQAU%26isOrg%3D1%26setupid%3DCustomSettings%26sfdcIFrameOrigin%3Dhttps%253A%252F%252Fwise-unicorn-h6bumt-dev-ed.lightning.force.com%26com.salesforce.visualforce.ViewStateVersion%3D202203171745430207%26nonce%3D062bedebbd3ae7aba57b8ecb044470a9c919fef353992c0d63fddb4274909cef%26tour%3D%26CS_list%253ACS_Form%3DCS_list%253ACS_Form%26sfdcIFrameHost%3Dweb%26clc%3D1%26id%3Da067Q0000016g0v%26com.salesforce.visualforce.ViewStateCSRF%3DVmpFPSxNakF5TWkwd015MHlNVlF5TXpvek5qbzFOQzQ0TmpWYSxJZ1dtaHdYeFJ5VnlfUWs2anBlOEI5LFpXWmtNR1Uy</url>
+</WebLink>

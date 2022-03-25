@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ScoreSpan</fullName>
+    <active>true</active>
+    <errorConditionFormula>Score__c &lt; 0 ||  Score__c &gt;  Assignment__r.Max_Score__c</errorConditionFormula>
+    <errorMessage>The score given here should not be below 0
+and should not exceed the assignment’s Max Score</errorMessage>
+</ValidationRule>

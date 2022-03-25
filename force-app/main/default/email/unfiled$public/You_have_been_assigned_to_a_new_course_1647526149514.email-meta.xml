@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>You have been assigned to a new course.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>You have been assigned to a new course.</name>
+    <relatedEntityType>Course_Participation__c</relatedEntityType>
+    <style>none</style>
+    <subject>You have been assigned to a new course.</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

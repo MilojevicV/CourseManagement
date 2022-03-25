@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Limitation</fullName>
+    <active>true</active>
+    <errorConditionFormula>Credit__c &lt;= 0   ||   Credit__c &gt;  100</errorConditionFormula>
+    <errorMessage>Credit must be 1-100</errorMessage>
+</ValidationRule>
